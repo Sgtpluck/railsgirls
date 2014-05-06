@@ -5,14 +5,7 @@ gem 'rails', '3.2.12'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
-	gem 'sqlite3'
-end
-group :production do
-	gem 'pg'
-	gem 'rails_12factor'
-end
-
+gem 'sqlite3'
 gem 'carrierwave'
 gem 'foreigner'
 
@@ -38,7 +31,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
