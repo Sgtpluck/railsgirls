@@ -7,7 +7,6 @@ gem 'rails', '3.2.12'
 
 gem 'sqlite3'
 gem 'carrierwave'
-gem 'foreigner'
 
 
 # Gems used only for assets and not required
